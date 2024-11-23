@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sus Dog Coin - Sussiest Crypto 🚀🐶</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffbeb; /* Playful beige */
+            color: #333;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #f8e69f; /* Sussy red */
+            padding: 20px;
+            border-bottom: 6px solid #e8cc5c;
+            animation: slideDown 1.5s ease-out;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 4rem;
+            color: #c5a213;
+            text-shadow: 2px 2px #9a7e0e;
+            animation: bounce 1.5s infinite;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #070707;
+            animation: fadeIn 2s ease-in;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .buttons {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            animation: zoomIn 1.5s ease;
+        }
+
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #c5a213;
+            border-radius: 12px;
+            box-shadow: 0 5px #9a7e0e;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .buttons a:hover {
+            background-color: #2563eb;
+            transform: scale(1.1) rotate(-3deg);
+            box-shadow: 0 8px #1e40af;
+        }
+
+        main {
+            margin: 30px 15px;
+        }
+
+        .meme-container {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            max-width: 90%;
+            border-radius: 15px;
+            animation: float 4s infinite;
+        }
+
+        .meme-container img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s;
+        }
+
+        .meme-container:hover img {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        #sus-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #c5a213; /* Green button for extra fun */
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 5px #9a7e0e;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            animation: popIn 2s ease-out;
+        }
+
+        #sus-button:hover {
+            background-color: #c5a213;
+            transform: scale(1.1);
+            box-shadow: 0 8px #9a7e0e;
+        }
+
+        @keyframes popIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #c5a213;;
+            color: white;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
+
+        .floating-image {
+            position: absolute;
+            width: 50px;
+            height: auto;
+            animation: rise 5s infinite ease-in-out;
+        }
+
+        .bouncing-dog {
+            width: 40px; /* Adjust size as needed */
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes rise {
+            from {
+                transform: translateY(100vh);
+                opacity: 1;
+            }
+            to {
+                transform: translateY(-10%);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>
+        <img src="edited.png" alt="Dog Image" class="bouncing-dog">
+        Sus Dog
+        <img src="edited.png" alt="Dog Image" class="bouncing-dog">
+    </h1>
+    <p>The most suspicious coin in the crypto game. Are you sus enough?</p>
+    <div class="buttons">
+        <a href="https://www.dextools.io/" target="_blank">DexScreener</a>
+        <a href="https://twitter.com/suspiciouspup" target="_blank">Twitter</a>
+        <a href="https://telegram.org/" target="_blank">Telegram</a>
+        <a href="https://pump.fun/" target="_blank">Pump.fun</a>
+    </div>
+</header>
+    <main>
+        <h2>Why is Sus Dog watching you? 👀</h2>
+        <div class="meme-container">
+            <img src="sus_dog.webp" alt="Sus Dog Meme">
+        </div>
+        <button id="sus-button">Click for Sus Power 👀</button>
+        <p id="sus-message" style="margin-top: 15px; font-size: 1.3rem; font-weight: bold; display: none;">You are now gay! 🐶🚀</p>
+    </main>
+    <footer>
+        <p>Made with 🐶 by the Sus Team. Not financial advice. <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script>
+        const susButton = document.getElementById('sus-button');
+        const susMessage = document.getElementById('sus-message');
+
+        susButton.addEventListener('click', () => {
+            susMessage.style.display = 'block';
+            susButton.innerText = 'You are officially sus! 🐶';
+            susButton.style.backgroundColor = '#d97706';
+        });
+
+        // Generate floating Sus Dog images for extra flair
+        const susDogImage = "edited.png";
+        for (let i = 0; i < 30; i++) {
+            const floatingImage = document.createElement('img');
+            floatingImage.src = susDogImage;
+            floatingImage.classList.add('floating-image');
+            floatingImage.style.left = Math.random() * 100 + 'vw';
+            floatingImage.style.animationDelay = Math.random() * 5 + 's';
+            floatingImage.style.animationDuration = Math.random() * 3 + 4 + 's';
+            document.body.appendChild(floatingImage);
+        }
+    </script>
+</body>
+</html>
